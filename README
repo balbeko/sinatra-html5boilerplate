@@ -5,7 +5,7 @@ See: http://sinatra-html5boilerplate.heroku.com/
 
 Usage:
 - bundle install
-- ruby app.rb
+- rackup
 
 Use:
 - Sinatra : http://www.sinatrarb.com
