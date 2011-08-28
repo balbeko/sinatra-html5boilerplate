@@ -11,7 +11,7 @@ require 'rspec'
 Capybara.app = Sinatra::Application
 
 class AppWorld
-  include Capybara
+  include Capybara::DSL
   include RSpec::Expectations
   include RSpec::Matchers
 end
