@@ -7,11 +7,12 @@ Usage:
 - rvm use 1.9.2@boilerplate --create --rvmrc
 - bundle install
 - foreman start
+- open http://localhost:5000
 
 Deploying:
 - gem install heroku
 - heroku create appname --stack cedar
-- git push heroku
+- git push heroku master
 - heroku open
 
 Use:
